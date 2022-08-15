@@ -9,51 +9,60 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  width: 100vw;
-  background-color: rgb(51, 51, 51);
+  background-color: #333;
+  overflow: hidden;
 }
 
 .card {
   position: relative;
-  overflow: hidden;
   margin: 0 15px;
   height: 40vh;
+  width: 350px;
   background-position: center;
   background-size: cover;
-  border-radius: 30px;
-  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.781);
-  z-index: 0;
+  border-radius: 15px;
+  overflow: hidden;
 }
 .card .img {
-  position: absolute;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.438);
-  z-index: -1;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.781);
+  transition: 0.8s;
 }
 .card .text {
-  display: flex;
-  height: 100%;
-  padding: 10px 0;
-  flex-direction: column;
-  justify-content: flex-end;
-  align-items: center;
-  color: white;
-  z-index: 1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  padding: 10px;
+  text-align: center;
+  background-image: linear-gradient(315deg, rgb(156, 156, 156) 0%, rgb(255, 224, 224) 74%);
+  transition: 0.8s;
+  opacity: 0;
 }
-.card .text p {
-  padding: 10px 20px;
-  text-align: justify;
+.card .text h3 {
+  margin-top: 250px;
 }
 
 .one {
   background-image: url("https://cdn.pixabay.com/photo/2017/10/07/16/22/river-2826927_960_720.jpg");
 }
+.one .text {
+  transform: rotateX(-180deg);
+}
 
 .two {
   background-image: url("https://cdn.pixabay.com/photo/2021/01/09/19/59/mountains-5903352_960_720.jpg");
 }
+.two .text {
+  transform: rotateY(-180deg);
+}
 
 .three {
   background-image: url("https://cdn.pixabay.com/photo/2016/07/14/15/09/willow-1516877_960_720.jpg");
+}
+
+.card:hover > .text {
+  transform: rotate(0);
 }/*# sourceMappingURL=style.css.map */
