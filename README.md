@@ -13,11 +13,11 @@ transform: rotateY<br>
 transform: translateY<br>
 
 ## Technologies Used
-- THTML version: 5
+- HTML version: 5
 - CSS version: 3 and SASS
 
 ## Acknowledgements
-The design of this project was created while learning the course "WEBSITE CREATION COURSE" from MMC School ([https://mmcschool.pl/kursy/kurs-tworzenia-stron-www-cz-2.html](https://mmcschool.pl/kursy/kurs-tworzenia-stron-www-cz-3.html))
+The design of this project was created while learning the course "WEBSITE CREATION COURSE" from MMC School ([https://mmcschool.pl/kursy/kurs-tworzenia-stron-www-cz-3.html](https://mmcschool.pl/kursy/kurs-tworzenia-stron-www-cz-3.html))
 
 ## Contact
 Feel free to contact me: <br>
